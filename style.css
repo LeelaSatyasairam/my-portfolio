@@ -1,0 +1,32 @@
+.header{
+    background: #f8a603db;
+    
+}
+
+.About_us{
+    background-color: whitesmoke;
+}
+
+
+.felxcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    height: auto;
+
+}
+
+.feature{
+    background-color: whitesmoke;
+    padding:20px;
+    border-radius: 2rem;
+
+}
+
+@media (max-width: 1250px) {
+    .felxcontainer {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
